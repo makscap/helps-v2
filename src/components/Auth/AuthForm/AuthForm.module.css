@@ -1,0 +1,96 @@
+.form_container {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+    border-radius: 2px;
+    background-color: #fff;
+    
+}
+
+.form {
+  display: flex;  
+  flex-direction: column;
+  align-self: center;
+  width: 250px;
+}
+
+.input {
+    width: 100%;
+    margin-top: 25px;
+    height: 30px;
+    padding: 0px;
+    border: 0px;
+    border-bottom: 1px solid #ced2d1;
+    outline: none;
+}
+
+.warning {
+    color: #F27405;
+}
+
+
+ /* LOGO */
+.logo_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.logo_title {
+    color: #071540;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    color: #84D981;
+    margin-left: 10px;
+    border: 1px solid #41BF78;
+}
+
+
+
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: #F2F2F2;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration: none;
+  transition: all 250ms;
+  margin-right: 20px;
+  border: 0px;
+  border: 1px solid #84D981;
+padding: 0px;
+box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #84D981;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.btn_group {
+    margin-top: 20px;
+}

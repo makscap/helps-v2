@@ -1,0 +1,48 @@
+.main {
+    padding-right: 125px;
+    padding-left: 125px;
+    padding-top: 75px;
+            min-height: calc(100vh - 195px);
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.list_group {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+margin-right: 105px;
+}
+
+.item:nth-child() {
+    margin-right: 0px;
+}
+
+.logo_color {
+    color: #41BF78;
+}
+
+.hero_title {
+    margin: 0px;
+}
+
+.articles {
+
+font-weight: 500;
+font-style:italic;
+}
+
+.list_describe {
+    margin-bottom: 5px;
+}

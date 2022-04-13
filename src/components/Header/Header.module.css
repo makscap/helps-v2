@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #84D981;
+}
+
+.logo_group {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_title {
+    color: #071540;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    color: #F2F2F2;
+    margin-left: 10px;
+    border: 1px solid #41BF78;
+}
+
+.user_group {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.logout {
+    width: 20px;
+    height: 20px;
+    color: #f2f2f2;
+}
+
+.logout_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #84D981;
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    border-left: 1px solid #F2F2F2;
+}
+
+.logout_group:hover, .logout_group:focus {
+    background-color: #41BF78;
+}
